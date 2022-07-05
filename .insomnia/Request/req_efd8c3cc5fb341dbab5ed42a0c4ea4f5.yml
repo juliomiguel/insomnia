@@ -1,0 +1,31 @@
+_id: req_efd8c3cc5fb341dbab5ed42a0c4ea4f5
+type: Request
+parentId: fld_63124797d1fc4598bac41edc66b0acea
+modified: 1657046827735
+created: 1657045471132
+url: localhost:4000/studies_employees
+name: /studies_employees
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"delegation": "Data entry",
+    	"employeeId": "a8224b83-5aac-4283-bfcb-f4a58fc26d87",
+    	"studyId": "89025f67-307d-43ea-a9b7-50fcd3fd23bf"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5930d175e764401bb13121ef269d37d0
+authentication: {}
+metaSortKey: -1657045471132
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

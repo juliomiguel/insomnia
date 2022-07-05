@@ -1,0 +1,10 @@
+_id: fld_c907367ec046441aba5370bba04fb625
+type: RequestGroup
+parentId: fld_e2e9ec60e6f144719357c0edd1edd023
+modified: 1656951433170
+created: 1656951433170
+name: /ping
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1656951433170

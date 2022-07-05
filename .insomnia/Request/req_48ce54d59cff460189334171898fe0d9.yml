@@ -1,0 +1,30 @@
+_id: req_48ce54d59cff460189334171898fe0d9
+type: Request
+parentId: fld_c907367ec046441aba5370bba04fb625
+modified: 1656951437477
+created: 1656941229910
+url: http://localhost:4000/ping
+name: /ping
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Júlio",
+    	"birth_date": "2022/12/29"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fb901a6bc2a049f3835658bf18fc58b8
+authentication: {}
+metaSortKey: -1656941229910
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

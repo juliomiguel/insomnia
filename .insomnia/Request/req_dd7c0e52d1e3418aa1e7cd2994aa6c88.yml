@@ -1,0 +1,32 @@
+_id: req_dd7c0e52d1e3418aa1e7cd2994aa6c88
+type: Request
+parentId: fld_4cea4d63384644d382c0210cf8cfdf90
+modified: 1657044699246
+created: 1657044614178
+url: localhost:4000/studies
+name: /studies
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "calla",
+    	"code": "asdasda",
+    	"area": "uti",
+    	"status": "ativo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2aaea8db53b545f4b11e16229c8d9eee
+authentication: {}
+metaSortKey: -1657044614178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
