@@ -1,0 +1,21 @@
+_id: req_5cf2eec2be624fae8bc01cfec81f00e5
+type: Request
+parentId: fld_d7efe5871ec5442f9e673f5b404abd7d
+modified: 1657070311024
+created: 1657067933798
+url: "{{ _.base_url }}/employee/233ebfd7-0d49-478d-a58f-7fb8760783e8"
+name: /employee/:id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1656951502910
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

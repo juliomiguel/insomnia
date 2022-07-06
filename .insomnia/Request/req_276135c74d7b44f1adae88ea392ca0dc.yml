@@ -1,27 +1,27 @@
-_id: req_8cee15d5b99c4adda85bb396614c041f
+_id: req_276135c74d7b44f1adae88ea392ca0dc
 type: Request
-parentId: fld_d7efe5871ec5442f9e673f5b404abd7d
-modified: 1657070331489
-created: 1656951502860
-url: "{{ _.base_url }}/employees"
-name: /employess
+parentId: fld_4b3c829b76954b1781a0701da288896f
+modified: 1657070322670
+created: 1657062378883
+url: "{{ _.base_url }}/patients"
+name: /patients
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Aparecida",
-    	"off ice": "Coordenador",
-    	"birthDate": "2018-12-25"
+    	"name": "paciente",
+    	"birthDate" : "1990/11/28",
+    	"chart": "7651298"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_d42e3b6ef308420d9dc4e55f417eb6fd
+    id: pair_2cd20b20d7f7449497c19b04bfd16e80
 authentication: {}
-metaSortKey: -1656951502860
+metaSortKey: -1657062378883
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

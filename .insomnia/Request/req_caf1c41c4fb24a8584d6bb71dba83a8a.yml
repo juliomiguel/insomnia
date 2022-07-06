@@ -1,0 +1,21 @@
+_id: req_caf1c41c4fb24a8584d6bb71dba83a8a
+type: Request
+parentId: fld_d7efe5871ec5442f9e673f5b404abd7d
+modified: 1657070307473
+created: 1657068052771
+url: "{{ _.base_url }}/employees"
+name: /employees
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1656951502960
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

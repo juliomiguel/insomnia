@@ -1,0 +1,21 @@
+_id: req_ed2a6f0e427a4451a96471f1c67ea512
+type: Request
+parentId: fld_4cea4d63384644d382c0210cf8cfdf90
+modified: 1657071443946
+created: 1657070558566
+url: "{{ _.base_url }}/study/asdasda5"
+name: /study/:code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657070558566
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

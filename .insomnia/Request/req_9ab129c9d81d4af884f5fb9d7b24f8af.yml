@@ -1,27 +1,29 @@
-_id: req_efd8c3cc5fb341dbab5ed42a0c4ea4f5
+_id: req_9ab129c9d81d4af884f5fb9d7b24f8af
 type: Request
 parentId: fld_63124797d1fc4598bac41edc66b0acea
-modified: 1657070326024
-created: 1657045471132
-url: "{{ _.base_url }}/studies_employees"
-name: /studies_employees
+modified: 1657070325459
+created: 1657063380277
+url: "{{ _.base_url }}/employees_with_study"
+name: /employees_with_study
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"delegation": "Data entry",
-    	"employeeId": "a8224b83-5aac-4283-bfcb-f4a58fc26d87",
-    	"studyId": "89025f67-307d-43ea-a9b7-50fcd3fd23bf"
+    	"name": "Julio",
+    	"birthDate" : "1990/11/28",
+    	"office": "242342",
+    	"delegation": "pi",
+    	"studyId":"43859b95-f40e-43a2-af46-5441b323c264"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_5930d175e764401bb13121ef269d37d0
+    id: pair_2cd20b20d7f7449497c19b04bfd16e80
 authentication: {}
-metaSortKey: -1657045471132
+metaSortKey: -1657045471182
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

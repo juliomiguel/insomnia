@@ -1,0 +1,21 @@
+_id: req_c6d82876200147318843ab6854a800d5
+type: Request
+parentId: fld_4cea4d63384644d382c0210cf8cfdf90
+modified: 1657070534151
+created: 1657070354051
+url: "{{ _.base_url }}/studies"
+name: /studies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1657070354051
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

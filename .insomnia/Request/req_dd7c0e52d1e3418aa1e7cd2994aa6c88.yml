@@ -1,9 +1,9 @@
 _id: req_dd7c0e52d1e3418aa1e7cd2994aa6c88
 type: Request
 parentId: fld_4cea4d63384644d382c0210cf8cfdf90
-modified: 1657044699246
+modified: 1657070338129
 created: 1657044614178
-url: localhost:4000/studies
+url: "{{ _.base_url }}/studies"
 name: /studies
 description: ""
 method: POST
