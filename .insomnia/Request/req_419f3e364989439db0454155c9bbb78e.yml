@@ -1,28 +1,26 @@
-_id: req_dd7c0e52d1e3418aa1e7cd2994aa6c88
+_id: req_419f3e364989439db0454155c9bbb78e
 type: Request
 parentId: fld_4cea4d63384644d382c0210cf8cfdf90
-modified: 1657218397477
-created: 1657044614178
-url: "{{ _.base_url }}/studies"
-name: /studies
+modified: 1657191495029
+created: 1657110595924
+url: "{{ _.base_url }}/study/name"
+name: /study/name
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Estudo exemplo",
-    	"code": "82456745",
-    	"area": "Oncologia",
-    	"status": "ativo"
+    	"id": "35f3bf72-d194-405d-9690-8110478e2f18",
+    	"newName": "zig"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_2aaea8db53b545f4b11e16229c8d9eee
+    id: pair_f8b5bc9c4b4240599a3a8984c90606dd
 authentication: {}
-metaSortKey: -1657044614178
+metaSortKey: -1657110595924
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
