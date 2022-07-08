@@ -1,27 +1,22 @@
-_id: req_8cee15d5b99c4adda85bb396614c041f
+_id: req_4805ed315ae6408990cd508fe75e886e
 type: Request
 parentId: fld_d7efe5871ec5442f9e673f5b404abd7d
-modified: 1657239174653
-created: 1656951502860
-url: "{{ _.base_url }}/employees"
-name: /employess
+modified: 1657239245831
+created: 1657238201273
+url: "{{ _.base_url }}/employees/name/data entry"
+name: /employees/name/:office
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"name": "Julio",
-    	"office": "Data entry",
-    	"birthDate": "2018-12-25"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_d42e3b6ef308420d9dc4e55f417eb6fd
+    id: pair_e68c6e357e6b4e7bb00a208381db0585
 authentication: {}
-metaSortKey: -1656951502860
+metaSortKey: -1657238201273
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

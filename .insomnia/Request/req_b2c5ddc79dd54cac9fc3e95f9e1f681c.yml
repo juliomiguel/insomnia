@@ -1,27 +1,26 @@
-_id: req_8cee15d5b99c4adda85bb396614c041f
+_id: req_b2c5ddc79dd54cac9fc3e95f9e1f681c
 type: Request
-parentId: fld_d7efe5871ec5442f9e673f5b404abd7d
-modified: 1657239174653
-created: 1656951502860
-url: "{{ _.base_url }}/employees"
-name: /employess
+parentId: fld_4cea4d63384644d382c0210cf8cfdf90
+modified: 1657233112743
+created: 1657150527809
+url: "{{ _.base_url }}/study/nome"
+name: /study/nome
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Julio",
-    	"office": "Data entry",
-    	"birthDate": "2018-12-25"
+    	"id": "5ce02ecb-7c15-402b-8997-897f19182332",
+    	"newName": "zig"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_d42e3b6ef308420d9dc4e55f417eb6fd
+    id: pair_6248de2af805419fb642fc57dd75fda5
 authentication: {}
-metaSortKey: -1656951502860
+metaSortKey: -1657150527809
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
