@@ -1,7 +1,7 @@
 _id: req_efd8c3cc5fb341dbab5ed42a0c4ea4f5
 type: Request
 parentId: fld_63124797d1fc4598bac41edc66b0acea
-modified: 1657102405767
+modified: 1658945735823
 created: 1657045471132
 url: "{{ _.base_url }}/studies_employees"
 name: /studies_employees
@@ -12,8 +12,8 @@ body:
   text: |-
     {
     	"delegation": "Data entry",
-    	"employeeId": "a8224b83-5aac-4283-bfcb-f4a58fc26d87",
-    	"studyId": "89025f67-307d-43ea-a9b7-50fcd3fd23bf"
+    	"employeeId": "07ad8ac1-abed-4e4d-a68b-381f29d9db42",
+    	"studyId": "004c88db-0e5e-47d2-b61e-0ffe75955d59"
     }
 parameters: []
 headers:

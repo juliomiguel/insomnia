@@ -1,7 +1,7 @@
 _id: req_dd7c0e52d1e3418aa1e7cd2994aa6c88
 type: Request
 parentId: fld_4cea4d63384644d382c0210cf8cfdf90
-modified: 1657236016331
+modified: 1657473984891
 created: 1657044614178
 url: "{{ _.base_url }}/studies"
 name: /studies
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"name": "Estudo exemplo",
-    	"code": "66789090",
+    	"code": "66590y90",
     	"area": "Oncologia",
     	"status": "ativo"
     }

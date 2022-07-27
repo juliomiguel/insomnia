@@ -1,9 +1,9 @@
 _id: req_e425188c4a694c0e86c41a72a6a656b0
 type: Request
 parentId: fld_4cea4d63384644d382c0210cf8cfdf90
-modified: 1657191491547
+modified: 1657841644339
 created: 1657107277301
-url: "{{ _.base_url }}/studies/where/all/"
+url: "{{ _.base_url }}/studies/where/all/aaa"
 name: /studies/where/all/:value
 description: ""
 method: GET

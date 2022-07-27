@@ -1,7 +1,7 @@
 _id: req_276135c74d7b44f1adae88ea392ca0dc
 type: Request
 parentId: fld_4b3c829b76954b1781a0701da288896f
-modified: 1657070322670
+modified: 1657587826470
 created: 1657062378883
 url: "{{ _.base_url }}/patients"
 name: /patients
@@ -13,7 +13,9 @@ body:
     {
     	"name": "paciente",
     	"birthDate" : "1990/11/28",
-    	"chart": "7651298"
+    	"sexo" : "masculina",
+    	"chart": "76"
+    	
     }
 parameters: []
 headers:

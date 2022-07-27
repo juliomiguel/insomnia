@@ -1,17 +1,17 @@
-_id: req_ed2a6f0e427a4451a96471f1c67ea512
+_id: req_d35ba8eebd904becbc3e930507530c7b
 type: Request
 parentId: fld_4cea4d63384644d382c0210cf8cfdf90
-modified: 1657454159077
-created: 1657070558566
-url: "{{ _.base_url }}/study/aaa2"
-name: /study/:code
+modified: 1657978199524
+created: 1657929466266
+url: "{{ _.base_url }}/study/aaa"
+name: /studies/study/:code
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1657070558566
+metaSortKey: -1657929466266
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
